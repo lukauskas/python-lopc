@@ -8,5 +8,7 @@ setup(
     license='MIT',
     author='Saulius Lukauskas',
     author_email='saulius.lukauskas13@imperial.ac.uk',
-    description=''
+    description='',
+    install_requires=['numpy'],
+    extras_require={'test': ['nose', 'scipy']},
 )
